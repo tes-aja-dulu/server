@@ -6,5 +6,6 @@ app.get('/', (req, res) => {
 })
 
 router.post("login", Controller.login)
+router.post("register", Controller.register)
 
 module.exports = router
